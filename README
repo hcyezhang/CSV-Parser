@@ -1,0 +1,18 @@
+Using 'make' to build the program.('make clean' to remove the program)
+
+Firstly, the user is asked to give an input .csv file that he/she would like to analyze.
+
+Following the instructions given by the command line:
+choose 1 for arithmetic operations(+,-,*,/) on two columns.
+-if chosen, specify the first column, operation and the second column. i.e.'col1 + col2'. The result will be stored in a file named 'col1+col2'  
+choose 2 for stats on a given column
+- if chosen, then specify the following four computations (min, max, median, mean) with a column. i.e.'min col1', 'max col1', 'med col1', 'avg col2'.
+choose 3 for join operations
+- if chosen, then speicify one col from the current file that has been read, inner/outer operation, and the col from another file. i.e. 'col1 inner col1', 'col2 outer col2'(noticing that the joined table will be stored in a corresponding file with filename 'col1innercol1' or 'col2outercol2' for the examples given here).
+- then specify the filename for the second input file.
+choose 4 to exit the program.
+
+Please notice that:
+1. when specifying column index, please use the zero based convention.
+2. Data with different types are not allowed for any join operations.
+3. Column stat(min, max, median, mean) is only valid for int or float data.
