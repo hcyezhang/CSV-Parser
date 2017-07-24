@@ -1,3 +1,9 @@
+The program allows a user to manipulate CSV data via command line/terminal. 
+- It performs addition, subtraction division and multiplication on two columns.
+- It outputs statistics on a column: min, max, median and average.
+- It performs an column-based outer and inner join on two data sets.
+
+————————————————————————————————————————————————-
 Using 'make' to build the program.('make clean' to remove the program)
 
 Firstly, the user is asked to give an input .csv file that he/she would like to analyze.
